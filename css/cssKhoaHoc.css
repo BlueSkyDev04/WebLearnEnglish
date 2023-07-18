@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#0164bf; 
+    height:80px;
+}
+.logo >img{
+    margin-bottom: -59px;
+    margin-left: 18px;
+}
+.muiten img{
+    margin-top: 61px;
+    margin-left: 20px;
+    padding-left: 36px;
+}
+
+nav ul{
+    padding-left: 500px;
+    margin-top: -72px;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+    
+}
+form{
+    float: right;
+    margin-top: -24px;
+    margin-right: 60px;
+}
+button{
+    margin-right: 38px;
+    margin-top: -26px;
+    width: 23px;
+    height: 24px;
+    padding-top: 8px;
+    background-image: url(/hinh/search.png);
+    float: right;
+}
+section nav{
+    background-color: rgb(228, 228, 240);
+    float: left;
+    width: 275px;
+    height: 673px;
+    margin-top: 11px;
+    position: relative;
+}
+.title {
+    background-image: url(/hinh/nentieude.png);
+    position: absolute;
+    width: 274px;
+    height: 42px;
+    background-repeat: no-repeat;
+}
+.title p{
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 15px;
+    color: white;
+}
+.logo_body{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 11px;
+    width: 251px;
+    height: 192px;
+    
+}
+.logo_body p{
+    margin-top: 29px;
+    margin-left: 52px;
+    position: absolute;
+}
+.logo_body img{
+    margin-left: 53px;
+    margin-top: 55px;
+}
+.container_body{
+    background-color: white;
+    width: 254px;
+    height: 115px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.container_body h5{
+    color: #0164bf;
+    margin-left: 52px;
+}
+.container_body p span:first-child{
+    background-color: blue;
+    color: white;
+    font-size: 11px;
+    margin-left: 30px;
+}
+
+.container_body p span:nth-child(2){
+    background-color: orange;
+    color: white; 
+    font-size: 11px;
+}
+.container_body p span:nth-child(3){
+    background-color: black;
+    color: white;
+    font-size: 11px;
+}
+.container_body p span:nth-child(4){
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    margin-left: 37px;
+}
+.container_body p span:nth-child(5){
+    background-color: #0164bf;
+    color: white;
+    font-size: 11px;}
+.title_container{
+    background-image: url(/hinh/nentieude.png);
+    position: absolute;
+    width: 274px;
+    height: 42px;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+}   
+.title_container p{
+    margin-top: 14px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav_container{
+    margin-top: 190px;
+    margin-left: 26px;
+}
+aside{
+    width: 20px;
+    float: right;
+    margin-top: -520px;
+    margin-right: 206px;
+}
+
+aside img{
+    margin-top: 12px;
+    width: 211px;
+}
+.content .banner img{
+    width: 994px;
+    height: 275px;
+    margin-top: 12px;
+    margin-left: 19px;
+    position: relative;
+}
+.content .text_img img{
+    width: 240px;
+    height: 239px;
+}
+.text_img >.img{
+    width: 20px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.Text_columb{
+    float: right;
+    margin-right: 780px;
+    margin-top: 24px;
+    width: 200px;
+    height: 200px;
+   
+}
+.Text_columb .text{
+    background-color: #bdddfb;
+    margin-left: 9px;
+    margin-top: -4px;
+    width: 724px;
+    height: 198px;
+    margin-bottom: 51px;
+}
+.Text_columb .text h4{
+    color: blueviolet;
+    font-size: 37px;
+}
+.Text_columb .text p{
+    font-size: 32px;
+}
+footer{
+    clear:left; 
+    background-image:url(/hinh/footer.png); 
+    height:180px;
+    width:1500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

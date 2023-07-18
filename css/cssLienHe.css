@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#0164bf; 
+    height:80px;
+}
+.yourlogo img{
+    margin-bottom:-42px;
+    margin-left: 48px;
+}
+nav ul{
+    padding-left: 500px;
+    margin-top: 8px;
+}
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+    
+}
+.banner img{
+    width: 100% ;
+}
+.thongtinlienhe{
+    justify-content: center;
+}
+.thongtinlienhe h4{
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left:546px;
+}
+.thongtinlienhe h5{
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left:330px;
+}
+.thongtinlienhe p{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left:476px;
+}
+form .t{
+    height: 40px;
+    width: 1201px;
+}
+form .bt button {
+    background-image: url(/hinh/nen_button_dangky.jpg);
+    height: 50px;
+    width: 120px;
+    border-color: white;
+    
+}
+form .bt button p{
+    font-size: 25px;
+    color: blueviolet;
+}
+.container_left{
+    float:left;
+    width:80% ;
+}
+label{
+    font-size: 30px;
+}
+.container_right{
+    width: 20%;
+    float: right;
+    margin-top:-583px;
+}
+
+.container_right div p{
+    margin-top: -39px;
+    height: 30px;
+    width: 280px;
+    text-transform: uppercase;
+    text-align: center;
+    color:blueviolet; 
+    font-size: 20px;
+}
+.container_right .jum2 p{
+    margin-top: -33px;
+}
+.container_right .jum2 img:first-child{
+    width: 266px;
+    height: 40px;
+}
+.container_right .jum2 img:last-child{
+    height: 230px;
+    width: 268px;
+}
+.container_right nav ul{
+    margin-left: -492px;
+}
+.container_right li{
+    list-style-type: none;
+    position: relative;
+    margin-left:20px;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+footer{
+    clear:left; 
+    background-image:url(/hinh/footer.png); 
+    height:182px;
+    width:1500px;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}

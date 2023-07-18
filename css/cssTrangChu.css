@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#0164bf; 
+    height:80px;
+}
+.yourlogo img{
+    margin-bottom:-42px;
+    margin-left: 48px;
+}
+nav ul{
+    padding-left: 500px;
+    margin-top: 8px;
+}
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+    
+}
+.banner_text .banner{
+    width:558px ;
+}
+.banner_text .banner_footer{
+    width: 100%;
+    margin-top:-66px;
+}
+.text{
+float:right ;
+
+}
+.text1{
+    float: left; 
+    margin-right: 55px;
+    margin-top: -351px;;
+}
+.text1 h4{
+    text-transform:uppercase ;
+    color: blue;
+    font-size: 30px;
+    margin-left: 111px;
+}
+.text1 > h5{
+    text-transform:uppercase ;
+    color: blue;
+    font-size: 35px;
+    margin-left: 58px;
+}
+.text1 .textmn{
+    background: blueviolet; 
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.text1 .textmn h5{
+    text-transform:uppercase ;
+    color: white;
+    font-size: 32px;
+}
+.t{
+    border: 4px dashed #7588f6;
+    padding: 10px 3px 10px 3px;
+    text-align: center;
+    color:blue;
+    margin-top: 10px;
+}
+.t p{
+    font-size:25px ;
+}
+
+.text2{
+    float: right;
+    margin-right: 133px;
+    margin-top: -323px;
+}
+.text2a{
+    border: 4px dashed #7588f6;
+    padding: 10px 3px 10px 3px;
+    text-align: center;
+    color:blue;
+    margin-top: 10px;
+}
+.text2a p{
+    font-size: 20px;
+}
+.text2b{
+    border: 4px dashed #7588f6;
+    padding: 10px 3px 10px 3px;
+    text-align: center;
+    color:blue;
+    margin-top: 10px;
+}
+.text2b p{
+    font-size: 25px;
+}
+.text2b p strong{
+    color: #acbf01;
+}
+.img_content .img_row{
+    display: fex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_content img{
+    width: 10%;
+    height: auto;
+    margin-left: 179px;
+}
+.img_content .content{
+    display: flex;
+}
+.a,.b,.c,.d{
+    flex: 1;
+  padding: 10px;
+  margin-left: 121px;
+}
+
+.a h4{
+    font-size: 19px;
+    color:blue;
+    margin-left: 61px;
+}
+.a h5{
+    text-align: center;
+    font-size: 23px;
+    color:blue;
+}
+.a p{
+    text-align: center;
+    margin-left: 22px;
+}
+.b h4{
+    font-size: 19px;
+    color:blue;
+    margin-left: 20px;
+}
+.b h5{
+    text-align: center;
+    font-size: 23px;
+    color:blue;
+    margin-left: -71px;
+}
+.b p{
+    text-align: center;
+    margin-left: -63px;
+}
+.c h4{
+    font-size: 19px;
+    color:blue;
+    margin-left: -31px;
+}
+.c h5{
+    text-align: center;
+    font-size: 23px;
+    color:blue;
+    margin-left: -158px;
+}
+.c p{
+    text-align: center;
+    margin-left: -135px;
+}
+.d h4{
+    font-size: 19px;
+    color:blue;
+    margin-left:-62px;;
+}
+.d h5{
+    text-align: center;
+    font-size: 23px;
+    color:blue;
+    margin-left: -244px;
+}
+.d p{
+    text-align: center;
+    margin-left: -219px;
+}
+.subrice{
+    display: flex;
+    background-color:blue;
+    text-align: center;
+    height: 41px;
+    width: 237px;
+    margin-left: 671px;
+}
+
+span{
+    padding: 10px;
+    color: white;
+    font-size: 20px
+}
+strong{
+    color:#acbf01;
+}
+.container{
+    background-color: #bac1ed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 403px;
+    margin-bottom: -64px;
+}
+.content_banner {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  color: white;
+  font-size: 27px;
+}
+.content_banner h4 {
+    margin-top: -176px;
+    margin-left: -476px;
+    text-transform: uppercase;
+    color: gray;
+}
+.content_banner h4 strong{
+    color:#0164bf;
+}
+.content_banner h5{
+    color: blue;
+    margin-left: -162px;
+    margin-top: 23px;
+    font-size: 25px;
+}
+.content_banner p{
+    color: gray;
+    margin-left: -163px;
+}
+.banner img{    
+    margin-top: 63px;
+    margin-left: 174px;
+
+}
+footer{
+    background-image: url(/hinh/footer.png);
+    background-size: 100%;
+    width: 100%;
+    height: 206px;
+    position: absolute;
+}
+
